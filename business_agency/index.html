@@ -8,33 +8,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2:regular,500,600,700,800" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <title>Business Agency</title>
 </head>
 <body>
-    <div class="container">
+    
 <!-- NavBar -->
-        <nav class="navbar">
-            <div class="logo">
-                <a href="#">
-                    <span>C</span>ode<span>A</span>nd<span>C</span>reate
-                </a>
-            </div>
-            <div class="nav-list">
-                <a href="#" class="nav-link">Home</a>
-                <a href="#" class="nav-link">About</a>
-                <a href="#" class="nav-link">Pricing</a>
-                <a href="#" class="nav-link">Blog</a>
-                <a href="#" class="nav-link">Contact</a>
-            </div>
-        </nav>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">
+                <span>C</span>ode<span>A</span>nd<span>C</span>reate
+            </a>
+        </div>
+        <div class="nav-list">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Pricing</a>
+            <a href="#" class="nav-link">Blog</a>
+            <a href="#" class="nav-link">Contact</a>
+        </div>
+    </nav>
 <!-- End of NavBar -->
 <!-- Menu -->
-        <div class="menu">
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
-            <div class="line line-3"></div>
-        </div>
+    <div class="menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+    </div>
 <!-- End of Menu -->
+    <div class="container">
 <!-- Section 1 -->
         <section class="section-1">
             <div class="banner">
@@ -77,26 +79,32 @@
         <section class="section-3">
             <h1 class="section-heading">Pricing</h1>
             <div class="section-heading-line"></div>
-            <div class="pricing-cards-wrapper">
-                <div class="pricing-card">
+            <div class="swiper-container">
+            <div class="pricing-cards-wrapper swiper-wrapper">
+                <div class="pricing-card swiper-slide">
                     <div class="pricing-card-front">
                         <h class="pricing-card-heading heading-free">FREE</h>
                         <h3 class="pricing-card-price">$0</h3>
                         <ul class="pricing-card-list list-free">
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-times"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-times"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-times"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-times"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-times"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-times"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                         </ul>
                         <button class="pricing-card-btn btn-free">
@@ -106,82 +114,107 @@
                     <div class="pricing-card-back back-free">
                         <a href="#">Order Now</a>
                     </div>
+                </div>
+                <div class="pricing-card swiper-slide">
                     <div class="pricing-card-front">
-                        <h class="pricing-card-heading heading-basic">Basic</h>
+                        <h class="pricing-card-heading heading-basic">BASIC</h>
                         <h3 class="pricing-card-price">$299</h3>
                         <ul class="pricing-card-list list-basic">
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-times"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-times"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                         </ul>
                         <button class="pricing-card-btn btn-basic">
-                            Choose
+                            Choose Plan
                         </button>
                     </div>
                     <div class="pricing-card-back back-basic">
                         <a href="#">Order Now</a>
                     </div>
+                </div>
+                <div class="pricing-card swiper-slide">
                     <div class="pricing-card-front">
                         <h class="pricing-card-heading heading-standard">STANDARD</h>
                         <h3 class="pricing-card-price">$699</h3>
                         <ul class="pricing-card-list list-standard">
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                         </ul>
                         <button class="pricing-card-btn btn-standard">
-                            Choose
+                            Choose Plan
                         </button>
                     </div>
                     <div class="pricing-card-back back-standard">
                         <a href="#">Order Now</a>
                     </div>
+                </div>
+                <div class="pricing-card swiper-slide">
                     <div class="pricing-card-front">
                         <h class="pricing-card-heading heading-premium">PREMIUM</h>
-                        <h3 class="pricing-card-price">$0</h3>
+                        <h3 class="pricing-card-price">$999</h3>
                         <ul class="pricing-card-list list-premium">
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                             <li>
-                                <i class="fas fa-check"><span>Pricing Card Item</span></i>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Pricing Card Item</span>
                             </li>
                         </ul>
                         <button class="pricing-card-btn btn-premium">
-                            Choose
+                            Choose Plan
                         </button>
                     </div>
                     <div class="pricing-card-back back-premium">
@@ -189,10 +222,12 @@
                     </div>
                 </div>
             </div>
+            </div>
         </section>
 <!-- End of Section 3 -->
     </div>
-
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
