@@ -41,9 +41,8 @@ video.addEventListener('timeupdate', () => {
 //End of Section 2 Video
 
 //Section 3 Pricing Cards
-var swiper = new Swiper(".swiper-container", {
-
-    effect: "coverflow",
+var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "auto",
