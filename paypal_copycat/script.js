@@ -35,6 +35,6 @@ document.querySelectorAll(".signup").forEach( signup => {
     signup.addEventListener('click', () => {
         document.querySelector(".front-page").style.display = "none";
         document.querySelector(".login-page").style.display = "none";
-        document.querySelector(".signup-page").style.display = "block";
+        document.querySelector(".signup-page").style.display = "flex";
     })
 })
